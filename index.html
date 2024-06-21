@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+    <link rel="icon" href="—Pngtree—basketball blue hobby icon_4478715.png" type="image/png">
+    
+</head>
+<body>
+    
+    <span class="header">
+        <h1 >BasketBall Scoreboard</h1>
+    </span>
+    <br>
+    
+
+<div class="reset">
+    <button class="resbutton" onclick="reset()" >Reset</button>
+    <button class="resbutton" onclick="End()">End Match</button>
+</div>
+<div >
+    
+        <h2 id="result">
+            result
+            
+            <br>
+        </h2>
+    </div>
+<div class="scoreboard">
+    <div class="left">
+        <div class="score">
+            <p id="scoreleft">0</p>
+        </div>
+        <div class="buttonsdiv">
+                <button class="button" onclick="left1()">+1</button>
+                <button class="button" onclick="left2()">+2</button>
+                <button class="button" onclick="left3()">+3</button>
+            </div>
+            <div class="team">TEAM A</div>
+        </div>
+        <div class="right">
+            <div class="score">
+                <p id="scoreright" >0</p>
+            </div>
+            <div class="buttonsdiv">
+                <button class="button"onclick="right1()">+1</button>
+                <button class="button"onclick="right2()">+2</button>
+                <button class="button"onclick="right3()">+3</button>
+            </div>
+            <div class="team">TEAM B</div>
+        </div>
+    </div>
+    
+   
+    <script src="index.js"></script>
+</body>
+</html>
